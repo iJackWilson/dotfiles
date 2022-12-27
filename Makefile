@@ -27,6 +27,11 @@ ohmyzsh:
 	# Install ohmyzsh
 	sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+iterm:
+	# Import iTerm2 plist
+	# Restart of iTerm required after this
+	cp $(PWD)/com.googlecode.iterm2.plist ~/Library/Preferences/
+
 # TODO
 # move .zshrc into source control (tried this but got readonly file system error)
 # check for ~/.ssh and create if it doesn't exist
