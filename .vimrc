@@ -1,4 +1,4 @@
-:set nu
-set rtp+=/usr/local/opt/go/libexec/misc/vim
+set rtp+=$GOROOT/misc/vim
 filetype plugin indent on
+set number
 syntax on

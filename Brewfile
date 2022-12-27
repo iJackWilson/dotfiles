@@ -1,0 +1,37 @@
+## need to run brew tap Homebrew/bundle before running
+## $brew bundle
+
+# From Homebrew
+brew 'azure-cli'
+brew 'cloc'
+brew 'gh'
+brew 'go'
+brew 'gobuster'
+brew 'jq'
+brew 'jython'
+brew 'netcat'
+brew 'nikto'
+brew 'nmap'
+brew 'openconnect'
+brew 'openssl'
+brew 'telnet'
+brew 'tree'
+brew 'wget'
+brew 'xz'
+
+# From Casks
+cask 'aerial'
+cask 'brave-browser'
+cask 'docker'
+cask 'dozer'
+cask 'firefox'
+cask 'flux'
+cask 'iterm2'
+cask 'keybase'
+cask 'lastpass'
+cask 'notion'
+cask 'rectangle'
+cask 'signal'
+cask 'slack'
+cask 'spotify'
+cask 'wireshark'

@@ -1,0 +1,37 @@
+# Make a new directory, and move to that directory
+function mkcd () {
+	mkdir -p $1;
+	cd $1;
+}
+
+# Find a file in the current directory
+function fng {
+	find . | grep -i "$1";
+}
+
+# edit /etc/pam.d/sudo to permit TouchID for sudo
+function enabletouchidsudo {
+  if ! grep -q 'pam_tid.so' /etc/pam.d/sudo; then
+    if sudo ex -s -c '2i|auth       sufficient     pam_tid.so' -c x! -c x! /etc/pam.d/sudo; then
+      # Invoke Vim in ex mode
+      # Select line 2, enter insert mode, insert that text write changes and exit
+      # Need to exit twice to get passed the read only file warning
+      echo "[✅] TouchID Sudo Enabled"
+    else
+      echo "[❌] Failed to enable TouchID Sudo"
+    fi
+  else
+    echo "[✅] TouchID Sudo Already Enabled"
+  fi
+}
+
+# Lazy git commit
+function c() {
+	git add --all;
+	git commit -m "$*";
+}
+
+# Password generator
+function pwgen {
+	LC_ALL=C tr -dc A-Za-z0-9 </dev/urandom | head -c $1 ; echo
+}

@@ -1,6 +1,6 @@
 [user]
 	name = iJackWilson
-	email = jack.wilson8796@gmail.com
+	email = hi@jackwilson.uk
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f

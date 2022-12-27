@@ -1,0 +1,19 @@
+# Don't write to .bash_history when prepending commands with a space
+export HISTCONTROL=ignorespace
+
+# Brewfile location
+export HOMEBREW_BREWFILE=$HOME/Documents/src/jack-wilson-moonpig/dotfiles/Brewfile
+
+# Go environment path
+export GOPATH="$HOME/go"
+
+# GPG TTY
+export GPG_TTY=$(tty)
+
+# Paths
+export PATH="$PATH:/Users/jack.wilson/Library/Python/2.7/bin:/Users/jack.wilson/go/bin"
+export PATH=$PATH:/opt/metasploit-framework/bin
+export PATH=$PATH:/usr/local/bin/
+export PATH=$PATH:/opt/homebrew/bin/
+export PATH=$PATH:"$HOME/Library/Python/3.8/bin"
+export GEM_HOME="$HOME/.gem"
