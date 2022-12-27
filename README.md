@@ -20,9 +20,9 @@ The Makefile can automatically create symlinks between the dotfiles listed above
 
 Clone this repo in the correct directory
 ```
-$ mkdir -p ~/Documents/src/jack-wilson-moonpig
-$ cd ~/Documents/src/jack-wilson-moonpig
-$ git clone https://github.com/jack-wilson-moonpig/dotfiles
+$ mkdir -p ~/Documents/src/ijackwilson
+$ cd ~/Documents/src/ijackwilson
+$ git clone https://github.com/ijackwilson/dotfiles
 ```
 
 Set up symlinks via the Makefile
