@@ -1,12 +1,12 @@
 dotfiles:
 	# Create symlinks
-	ln -s $(pwd)/.profile $(HOME)/.profile
-	ln -s $(pwd)/.aliases $(HOME)/.aliases
-	ln -s $(pwd)/.functions $(HOME)/.functions
+	ln -s $(PWD)/.profile $(HOME)/.profile
+	ln -s $(PWD)/.aliases $(HOME)/.aliases
+	ln -s $(PWD)/.functions $(HOME)/.functions
 	ln -s $(PWD)/.exports $(HOME)/.exports
-	ln -s $(pwd)/.gitignore $(HOME)/.gitignore
-	ln -s $(pwd)/.vimrc $(HOME)/.vimrc
-	ln -s $(pwd)/.hushlogin $(HOME)/.hushlogin
+	ln -s $(PWD)/.gitignore $(HOME)/.gitignore
+	ln -s $(PWD)/.vimrc $(HOME)/.vimrc
+	ln -s $(PWD)/.hushlogin $(HOME)/.hushlogin
 	# Configure environment
 	source $(HOME)/.zshrc
 	git config --global core.excludesFile '$(HOME)/.gitignore'
