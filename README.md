@@ -35,4 +35,8 @@ Install Homebrew and run `brew bundle`
 $ make brew
 ```
 
+## iTerm2 Preferences
+
+You need to replace the file in `~/Library/Preferences/com.googlecode.iterm2.plist` with the one fro this repo
+
 Inspired by [`0xmachos/dotfiles`](https://github.com/0xmachos/dotfiles) and [`jessfraz/dotfiles`](https://github.com/jessfraz/dotfiles)

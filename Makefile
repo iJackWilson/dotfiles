@@ -1,6 +1,6 @@
 dotfiles:
 	# Create symlinks
-	ln -s $(PWD)/.profile $(HOME)/.profile
+	ln -s $(PWD)/.zshrc $(HOME)/.zshrc
 	ln -s $(PWD)/.aliases $(HOME)/.aliases
 	ln -s $(PWD)/.functions $(HOME)/.functions
 	ln -s $(PWD)/.exports $(HOME)/.exports
