@@ -1,8 +1,5 @@
-# Don't write to .bash_history when prepending commands with a space
-export HISTCONTROL=ignorespace
-
 # Brewfile location
-export HOMEBREW_BREWFILE=$HOME/Documents/src/jack-wilson-moonpig/dotfiles/Brewfile
+export HOMEBREW_BREWFILE=$HOME/Documents/src/ijackwilson/dotfiles/Brewfile
 
 # Go environment path
 export GOPATH="$HOME/go"

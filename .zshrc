@@ -8,3 +8,5 @@ for file in ~/.{aliases,exports,functions}; do
   fi
 
 done
+
+setopt HIST_IGNORE_SPACE
