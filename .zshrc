@@ -10,3 +10,4 @@ for file in ~/.{aliases,exports,functions}; do
 done
 
 setopt HIST_IGNORE_SPACE
+PROMPT="%F{green}%~%f "
