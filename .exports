@@ -14,3 +14,4 @@ export PATH=$PATH:/usr/local/bin/
 export PATH=$PATH:/opt/homebrew/bin/
 export PATH=$PATH:"$HOME/Library/Python/3.8/bin"
 export GEM_HOME="$HOME/.gem"
+export OP_SESSION_youraccount=$(security find-generic-password -a $USER -s "op_session" -w)
