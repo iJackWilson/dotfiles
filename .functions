@@ -41,3 +41,6 @@ gc() {
   git clone "https://github.com/$1"
 }
 
+function gcpctx() {
+	gcloud config set project "$(gcloud projects list --format='value(projectId)' | fzf)";
+}
